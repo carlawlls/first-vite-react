@@ -2,13 +2,17 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import pizza from './pizza.png'
 import './App.css'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    /*
     <div className="App">
       <header className="App-header">
+        < Navbar />
         <h1>Hello</h1>
         <img src={pizza} className="pizza" alt="pizza" />
         <p>Have a pizza</p>
@@ -22,6 +26,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      < Main />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -34,6 +39,11 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
+    */
+    <>
+      <Navbar />
+      <Main />
+    </>
   )
 }
 
