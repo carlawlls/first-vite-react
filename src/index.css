@@ -1,3 +1,4 @@
+/*
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -67,4 +68,45 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+*/
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  background: rgb(33, 34, 42);
+  color: white;
+  text-align: center;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo-sm {
+  width: 30px;
+  height: 30px;
+}
+
+h4 {
+  color: rgb(98, 218, 251);
+}
+
+p {
+  font-size: 13px;
+  color: rgb(222, 235, 248);
 }
