@@ -73,7 +73,7 @@ button:focus-visible {
 */
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   box-sizing: border-box;
 }
 
@@ -81,7 +81,7 @@ body {
   margin: 0;
 }
 
-.nav {
+nav {
   display: flex;
   background: rgb(33, 34, 42);
   color: white;
@@ -102,11 +102,22 @@ body {
   height: 30px;
 }
 
-h4 {
+.navbar-left > h4 {
   color: rgb(98, 218, 251);
+  font-size: 22px;
+  font-weight: 700;
 }
 
-p {
-  font-size: 13px;
+nav > p {
+  font-size: 16px;
   color: rgb(222, 235, 248);
+  font-weight: 600;
+}
+
+.main {
+  padding: 32px;
+}
+
+li {
+  padding-bottom: 8px;
 }
